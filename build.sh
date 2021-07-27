@@ -22,7 +22,7 @@ if [ ! -f "artisan" ]; then
 
     echo "Downloading the Theme you picked"
     mkdir -p tempdown && cd tempdown && git clone https://github.com/ItzPetirZ/MyPanelThemes .
-    cp -r ItzPetirZ/MasterThemes ..
+    cp -r ItzPetirZ ..
     
 
     echo "Files have been copied over!"
